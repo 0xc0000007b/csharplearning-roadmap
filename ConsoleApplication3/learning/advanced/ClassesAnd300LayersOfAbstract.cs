@@ -2,7 +2,7 @@ using System;
 
 namespace ConsoleApplication3
 {
-    public class ClassesAdnd300LayersOfAbstract // <- class is the main entity on your program
+    public class ClassesAnd300LayersOfAbstract // <- class is the main entity on your program
     {
         
     }
@@ -19,6 +19,28 @@ namespace ConsoleApplication3
         public override void WriteText()
         {
             Console.Write("All Tests Passed");
+        }
+    }
+
+    public abstract class Weapon
+    {
+        public abstract void Fire();
+    }
+    
+    
+    public class Helicopter : Weapon
+    {
+        public override void Fire()
+        {
+            Console.Write("I end of flying and ready to Fire");
+        }
+    }
+    
+    public class Tank : Weapon
+    {
+        public override void Fire()
+        {
+            Console.Write("boom");
         }
     }
 }
