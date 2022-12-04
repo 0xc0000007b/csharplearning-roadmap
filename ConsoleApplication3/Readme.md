@@ -14,7 +14,11 @@
 ##  Part 1. Introducing on C#
 1.  ![Regular Data-Types](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/NativeDataTypes.cs)
     1. ![Int](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
+<<<<<<< HEAD
         1. ![uint](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
+=======
+       1. ![uint](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
+>>>>>>> refs/remotes/origin/master
     2. ![Double](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
     3. ![Float](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
     4. ![Short](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
@@ -25,6 +29,7 @@
     9. ![Decimal](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
 2. ![Arrays](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/ArraysAndCycles.cs)
 4.    1. ![Standard Array]()
+<<<<<<< HEAD
 2. ![MultiDimensional Arrays]()
 3. ![Stepped Arrays]()
 3. ![Cycles](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/ArraysAndCycles.cs)
@@ -44,10 +49,32 @@
 1. ![Delegates](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Delegates.cs)
     1. ![Returnable](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
     2. ![Non-returnable](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
+=======
+   2. ![MultiDimensional Arrays]()
+   3. ![Stepped Arrays]()
+3. ![Cycles](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/ArraysAndCycles.cs)
+   1. ![For](https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement)
+   2. ![While](https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/statements/iteration-statements#the-while-statement)
+   3. ![ForEach](https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/statements/iteration-statements#the-foreach-statement)
+4. ![If/Else/Else If statements](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/IfElseStatements.cs)
+   1. ![If statement](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/selection-statements#the-if-statement)
+   2. ![Else statement](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/selection-statements#the-if-statement)
+   3. ![Else If Statement](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/selection-statements#the-if-statement)
+   4. ![Switch statement](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/selection-statements#the-switch-statement)
+5. ![Methods](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/Methods.cs)
+   1. ![Returning methods](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
+   2. ![Void methods](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
+6. ![Math Operations](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/MathOperations.cs)
+## Part 2. Advanced C#
+1. ![Delegates](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Delegates.cs)
+   1. ![Returnable](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
+   2. ![Non-returnable](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
+>>>>>>> refs/remotes/origin/master
 2. ![Abstract classes](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/ClassesAnd300LayersOfAbstract.cs)
 3. ![Lambda](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/LambdaExpressions.cs)
 4. ![Regular Expressions](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/RegularExp.cs)
 5. ![Async/Await/Tasks](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/AsyncAwaitTasks.cs)
+<<<<<<< HEAD
     1. ![Async](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
     2. ![Await](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/await)
     3. ![Tasks](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-7.0)
@@ -109,7 +136,7 @@ try invoke this method in main
 </details>
 
 </details>
-</details>
+
 
 # Additional Links
 ![Microsoft Doc](https://learn.microsoft.com/en-us/dotnet/)
@@ -120,6 +147,13 @@ C# Head First
 
 
 
+=======
+   1. ![Async](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
+   2. ![Await](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/await)
+   3. ![Tasks](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-7.0)
+6. ![Recoursion](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Recoursion.cs)
+7. ![Actions](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Actions.cs)
+>>>>>>> refs/remotes/origin/master
 
  <details>
 <summary> Special Symbols</summary> 
