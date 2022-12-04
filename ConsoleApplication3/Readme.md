@@ -24,15 +24,9 @@
     8. [Char](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/char)
     9. [Decimal](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
 2. [Arrays](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/ArraysAndCycles.cs)
-<<<<<<< HEAD
-    1. [Standard Array]()
-    2. [MultiDimensional Arrays]()
-    3. [Stepped Arrays]()
-=======
-      1. [Standard Array](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
-      2. [MultiDimensional Arrays](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays)
-      3. [Stepped Arrays](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays)
->>>>>>> refs/remotes/origin/master
+    1. [Standard Array](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
+    2. [MultiDimensional Arrays](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays)
+    3. [Stepped Arrays](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays)
 3. [Cycles](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/ArraysAndCycles.cs)
     1. [For](https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement)
     2. [While](https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/statements/iteration-statements#the-while-statement)
@@ -59,11 +53,7 @@
     3. [Tasks](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-7.0)
 6. [Recoursion](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Recoursion.cs)
 7. [Actions](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Actions.cs)
-<<<<<<< HEAD
-8. [Accessing](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/ClassesAnd300LayersOfAbstract.cs)
-=======
 8. [Accessing](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/Methods.cs)
->>>>>>> refs/remotes/origin/master
    1. [public](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/public)
    2. [private](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/private)
    3. [protected](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/protected)
@@ -122,23 +112,20 @@ try invoke this method in main
 
 
 # Additional Links
-<<<<<<< HEAD
+
 [Microsoft Doc](https://learn.microsoft.com/en-us/dotnet/)
 [Metanit](https://metanit.com/sharp/)
-=======
-![Microsoft Doc](https://learn.microsoft.com/en-us/dotnet)
-![Metanit](https://metanit.com/sharp)
->>>>>>> refs/remotes/origin/master
+
+
 # Books
 CLR via C#
 C# Head First
 
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> refs/remotes/origin/master
+
+
  <details>
 <summary> Special Symbols</summary> 
 \n - new line,
