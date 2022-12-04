@@ -129,8 +129,8 @@ try invoke this method in main
 
 
 # Additional Links
-![Microsoft Doc](https://learn.microsoft.com/en-us/dotnet/)
-![Metanit](https://metanit.com/sharp/)
+![Microsoft Doc](https://learn.microsoft.com/en-us/dotnet)
+![Metanit](https://metanit.com/sharp)
 # Books
 CLR via C#
 C# Head First
