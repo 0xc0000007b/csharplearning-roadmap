@@ -14,11 +14,11 @@
 ##  Part 1. Introducing on C#
 1.  ![Regular Data-Types](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/NativeDataTypes.cs)
     1. ![Int](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
-<<<<<<< HEAD
+
         1. ![uint](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
-=======
+
        1. ![uint](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
->>>>>>> refs/remotes/origin/master
+
     2. ![Double](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
     3. ![Float](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
     4. ![Short](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
@@ -28,10 +28,9 @@
     8. ![Char](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/char)
     9. ![Decimal](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
 2. ![Arrays](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/ArraysAndCycles.cs)
-4.    1. ![Standard Array]()
-<<<<<<< HEAD
-2. ![MultiDimensional Arrays]()
-3. ![Stepped Arrays]()
+      1. ![Standard Array](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
+      2. ![MultiDimensional Arrays](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays)
+      3. ![Stepped Arrays](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays)
 3. ![Cycles](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/ArraysAndCycles.cs)
     1. ![For](https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement)
     2. ![While](https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/statements/iteration-statements#the-while-statement)
@@ -49,9 +48,6 @@
 1. ![Delegates](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Delegates.cs)
     1. ![Returnable](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
     2. ![Non-returnable](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
-=======
-   2. ![MultiDimensional Arrays]()
-   3. ![Stepped Arrays]()
 3. ![Cycles](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/ArraysAndCycles.cs)
    1. ![For](https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement)
    2. ![While](https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/statements/iteration-statements#the-while-statement)
@@ -74,13 +70,12 @@
 3. ![Lambda](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/LambdaExpressions.cs)
 4. ![Regular Expressions](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/RegularExp.cs)
 5. ![Async/Await/Tasks](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/AsyncAwaitTasks.cs)
-<<<<<<< HEAD
     1. ![Async](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
     2. ![Await](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/await)
     3. ![Tasks](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-7.0)
 6. ![Recoursion](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Recoursion.cs)
 7. ![Actions](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Actions.cs)
-8. ![Accessing]()
+8. ![Accessing](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/Methods.cs)
    1. ![public](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/public)
    2. ![private](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/private)
    3. ![protected](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/protected)
