@@ -142,14 +142,6 @@ C# Head First
 
 
 
-=======
-   1. ![Async](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
-   2. ![Await](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/await)
-   3. ![Tasks](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-7.0)
-6. ![Recoursion](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Recoursion.cs)
-7. ![Actions](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Actions.cs)
->>>>>>> refs/remotes/origin/master
-
  <details>
 <summary> Special Symbols</summary> 
 \n - new line,
