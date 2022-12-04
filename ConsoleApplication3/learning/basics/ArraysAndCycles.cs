@@ -27,9 +27,12 @@ namespace ConsoleApplication3.learning.basics
                 Console.Write(arr[b] + " ");
                 c++;
                 a++; // cycle counter.
+                
             }
-            
-            
+
+            AsyncAwaitTasks async = new AsyncAwaitTasks();
+
+
         }
         public int[,] Create2DArray(int cols, int rows)
         {

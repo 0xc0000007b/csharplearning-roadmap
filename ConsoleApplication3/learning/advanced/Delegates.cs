@@ -16,6 +16,7 @@ namespace ConsoleApplication3
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             _testDelegate2(a,b);
+            
         }
         public static void ShowMsg()
         {
@@ -29,6 +30,8 @@ namespace ConsoleApplication3
             Console.WriteLine(c);
             return c;
         }
+
+       
         
     }
 }
