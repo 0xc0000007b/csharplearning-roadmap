@@ -12,7 +12,7 @@
 
 # Table of contents
 ##  Part 1. Introducing on C#
-1.  ![Regular Data-Types](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/NativeDataTypes.cs)
+1.  [Regular Data-Types](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/NativeDataTypes.cs)
     1. ![Int]((https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types))
         1. ![uint](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
     2. ![Double](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
