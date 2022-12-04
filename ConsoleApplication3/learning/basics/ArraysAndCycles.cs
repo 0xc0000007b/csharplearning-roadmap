@@ -1,4 +1,5 @@
 using System;
+using System.Linq.Expressions;
 
 namespace ConsoleApplication3.learning.basics
 {
@@ -8,7 +9,8 @@ namespace ConsoleApplication3.learning.basics
         // string[,] -> 2D array of string
         // double[][] -> stepped array of int
         // go to use the arrays
-        // 
+        // you can be resize arrays.  C# contains standard method for arrays: Arrays.Resize(ref array array, size new size)<
+        // but we realize us own method for these task
         public void CreateArray() // 1d arrays
         {
             Console.WriteLine("line array");
@@ -48,6 +50,17 @@ namespace ConsoleApplication3.learning.basics
                 Console.WriteLine();
             }
             return arr;
+        }
+
+        public void ResizeArray(ref int[] array, int newSize) // we are resize us own array by these method
+        {
+            int[] newArray = new int[newSize];
+            for (int i = 0; i < array.Length && i < newArray.Length; i++) // sort out all elements in all us arrays 
+            {
+                newArray[i] = array[i]; // rewrite indexes
+            }
+
+            array = newArray; // newArray has reffered to array
         }
         // 3D Array -> [,,], 4D -> [,,,], 5D -> [,,,,] and etc
         public void CreateSteppedArray()
