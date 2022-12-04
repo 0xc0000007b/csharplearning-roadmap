@@ -14,11 +14,7 @@
 ##  Part 1. Introducing on C#
 1.  ![Regular Data-Types](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/basics/NativeDataTypes.cs)
     1. ![Int](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
-
         1. ![uint](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
-
-       1. ![uint](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
-
     2. ![Double](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
     3. ![Float](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
     4. ![Short](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
@@ -65,7 +61,6 @@
 1. ![Delegates](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Delegates.cs)
    1. ![Returnable](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
    2. ![Non-returnable](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
->>>>>>> refs/remotes/origin/master
 2. ![Abstract classes](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/ClassesAnd300LayersOfAbstract.cs)
 3. ![Lambda](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/LambdaExpressions.cs)
 4. ![Regular Expressions](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/RegularExp.cs)
