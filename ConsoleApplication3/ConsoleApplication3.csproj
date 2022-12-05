@@ -12,6 +12,7 @@
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <LangVersion>8</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,6 +48,8 @@
         <Compile Include="learning\advanced\AsyncAwaitTasks.cs" />
         <Compile Include="learning\advanced\ClassesAnd300LayersOfAbstract.cs" />
         <Compile Include="learning\advanced\Delegates.cs" />
+        <Compile Include="learning\advanced\Enum.cs" />
+        <Compile Include="learning\advanced\Interfaces.cs" />
         <Compile Include="learning\advanced\LambdaExpressions.cs" />
         <Compile Include="learning\advanced\Recoursion.cs" />
         <Compile Include="learning\advanced\RegularExp.cs" />

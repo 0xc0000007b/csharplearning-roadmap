@@ -57,6 +57,11 @@
    1. [public](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/public)
    2. [private](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/private)
    3. [protected](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/protected)
+9. [Interfaces]()
+    1. [IEnComparable](https://learn.microsoft.com/en-us/dotnet/api/system.icomparable?view=net-7.0)
+    2. [IEnumerator](https://learn.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=net-7.0)
+    3. [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-7.0)
+10. [Enum]()
 
 
 # Images
@@ -107,8 +112,39 @@ try invoke this method in main
 <details><summary>Delegates:</summary>
 <img src="images/delegates/delegates.png" alt="">
 </details>
-
+<details><summary>Interfaces</summary>
+<img src="images/Interfaces/interface.png" alt="">
+<img src="images/Interfaces/classandmethod.png" alt="">
+<details><summary>Enum</summary>
+enum:
+<img src="images/enum/enum.png" alt="">
+method:
+<img src="images/enum/method.png" alt="">
+Invoking:
+<img src="images/enum/invoking.png" alt="">
+output:
+<img src="images/enum/output.png" alt="">
 </details>
+<ditails><summary>Interfaces</summary>
+<details><summary>interface</summary>
+<img src="images/Interfaces/interface.png" alt="">
+compatible class:
+<img src="images/Interfaces/classandmethod.png" alt="">
+<details><summary>IComparable</summary>
+<img src="images/Interfaces/icomparable/icomparable.png" alt="">
+output:
+<img src="images/Interfaces/icomparable/output.png" alt="">
+<details><summary>IEnumerator</summary>
+<img src="images/Interfaces/ienumerator/ienumerator.png" alt="">
+output:
+<img src="images/Interfaces/ienumerator/output.png" alt="">
+</details>
+</details>
+</details>
+</ditails>
+</details>
+</details>
+
 
 
 # Additional Links
