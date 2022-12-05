@@ -136,6 +136,7 @@ output:
 <details><summary>interface</summary>
 
 <img src="images/Interfaces/interface.png" alt="">
+
 compatible class:
 
 <img src="images/Interfaces/classandmethod.png" alt="">
