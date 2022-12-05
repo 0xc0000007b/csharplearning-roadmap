@@ -5,7 +5,7 @@ namespace ConsoleApplication3
 {
     public class Enum
     {
-      
+      // read more about Enum: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum
         
         public enum LanguageDifference : int
         {
