@@ -141,7 +141,9 @@ compatible class:
 <img src="images/Interfaces/classandmethod.png" alt="">
 
 <details><summary>IComparable</summary>
+
 <img src="images/Interfaces/icomparable/icomparable.png" alt="">
+
 output:
 
 <img src="images/Interfaces/icomparable/output.png" alt="">
@@ -153,6 +155,7 @@ output:
 output:
 
 <img src="images/Interfaces/ienumerator/output.png" alt="">
+
 </details>
 </details>
 </ditails>
