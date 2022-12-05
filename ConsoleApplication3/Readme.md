@@ -58,7 +58,7 @@
    2. [private](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/private)
    3. [protected](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/protected)
 9. [Interfaces](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Interfaces.cs)
-    1. [IEnComparable](https://learn.microsoft.com/en-us/dotnet/api/system.icomparable?view=net-7.0)
+    1. [IComparable](https://learn.microsoft.com/en-us/dotnet/api/system.icomparable?view=net-7.0)
     2. [IEnumerator](https://learn.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=net-7.0)
     3. [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-7.0)
 10. [Enum](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Enum.cs)
