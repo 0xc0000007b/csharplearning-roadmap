@@ -112,9 +112,6 @@ try invoke this method in main
 <details><summary>Delegates:</summary>
 <img src="images/delegates/delegates.png" alt="">
 </details>
-<details><summary>Interfaces</summary>
-<img src="images/Interfaces/interface.png" alt="">
-<img src="images/Interfaces/classandmethod.png" alt="">
 <details><summary>Enum</summary>
 enum:
 
@@ -132,6 +129,9 @@ output:
 
 <img src="images/enum/output.png" alt="">
 </details>
+<details><summary>Interfaces</summary>
+<img src="images/Interfaces/interface.png" alt="">
+<img src="images/Interfaces/classandmethod.png" alt="">
 <ditails><summary>Interfaces</summary>
 <details><summary>interface</summary>
 
