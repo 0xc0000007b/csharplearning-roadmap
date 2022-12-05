@@ -117,11 +117,15 @@ try invoke this method in main
 <img src="images/Interfaces/classandmethod.png" alt="">
 <details><summary>Enum</summary>
 enum:
+
 <img src="images/enum/enum.png" alt="">
+
 method:
 <img src="images/enum/method.png" alt="">
+
 Invoking:
 <img src="images/enum/invoking.png" alt="">
+
 output:
 <img src="images/enum/output.png" alt="">
 </details>
@@ -133,12 +137,13 @@ compatible class:
 <details><summary>IComparable</summary>
 <img src="images/Interfaces/icomparable/icomparable.png" alt="">
 output:
+
 <img src="images/Interfaces/icomparable/output.png" alt="">
+</details>
 <details><summary>IEnumerator</summary>
 <img src="images/Interfaces/ienumerator/ienumerator.png" alt="">
 output:
 <img src="images/Interfaces/ienumerator/output.png" alt="">
-</details>
 </details>
 </details>
 </ditails>
