@@ -59,10 +59,15 @@
    3. [protected](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/protected)
 9. [Interfaces](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Interfaces.cs)
     1. [IComparable](https://learn.microsoft.com/en-us/dotnet/api/system.icomparable?view=net-7.0)
+<<<<<<< HEAD
     2. [IComparer](https://learn.microsoft.com/en-us/dotnet/api/system.collections.icomparer?view=net-7.0)
     3. [IEnumerator](https://learn.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=net-7.0)
     4. [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-7.0)
     5. [ICloneable](https://learn.microsoft.com/en-us/dotnet/api/system.icloneable?view=net-7.0)
+=======
+    2. [IEnumerator](https://learn.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=net-7.0)
+    3. [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-7.0)
+>>>>>>> refs/remotes/origin/master
 10. [Enum](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Enum.cs)
 11. [HttpClient](https://github.com/0xc0000007b/parser/blob/master/ParserOne/Core/HtmlLoader.cs)
     1. [HttpClient](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-7.0)
