@@ -2,7 +2,7 @@ using System;
 
 namespace ConsoleApplication3
 {
-    public class ClassesAnd300LayersOfAbstract // <- class is the main entity on your program
+    public class AbstractClasses // <- class is the main entity on your program
     {
         
     }
