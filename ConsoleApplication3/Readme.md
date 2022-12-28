@@ -44,7 +44,7 @@
 1. [Delegates](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Delegates.cs)
    1. [Returnable](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
    2. [Non-returnable](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
-2. [Abstract classes](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/ClassesAnd300LayersOfAbstract.cs)
+2. [Abstract classes](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/AbstractClasses.cs)
 3. [Lambda](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/LambdaExpressions.cs)
 4. [Regular Expressions](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/RegularExp.cs)
 5. [Async/Await/Tasks](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/AsyncAwaitTasks.cs)
@@ -68,7 +68,14 @@
 10. [Enum](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Enum.cs)
 11. [HttpClient](https://github.com/0xc0000007b/parser/blob/master/ParserOne/Core/HtmlLoader.cs)
     1. [HttpClient](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-7.0)
-
+12. [Generics](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/Generics.cs)
+    1. [List](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-7.0)
+    2. [Queue](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.queue-1?view=net-7.0)
+    3. [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=net-7.0)
+13. [Object-Oriented Programming](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/OOP.cs)
+    1. [ What is OOP](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop)
+    2. [Encapsulation](https://learn.microsoft.com/en-us/visualstudio/ide/reference/encapsulate-field?view=vs-2022)
+    
 
 # Images
 
