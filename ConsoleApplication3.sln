@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication3", "ConsoleApplication3\ConsoleApplication3.csproj", "{D9839349-6B8C-4D88-A6B1-D9295EAB66D8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{27B246B3-7764-4FD4-9A3A-F93F9A5250A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "ConsoleApplication3\learning\advanced\WPF\WpfApp1\WpfApp1.csproj", "{0D23E6D6-BD5F-4C99-BFCF-1D6924AB34AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{D9839349-6B8C-4D88-A6B1-D9295EAB66D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9839349-6B8C-4D88-A6B1-D9295EAB66D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9839349-6B8C-4D88-A6B1-D9295EAB66D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D23E6D6-BD5F-4C99-BFCF-1D6924AB34AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D23E6D6-BD5F-4C99-BFCF-1D6924AB34AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D23E6D6-BD5F-4C99-BFCF-1D6924AB34AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D23E6D6-BD5F-4C99-BFCF-1D6924AB34AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D23E6D6-BD5F-4C99-BFCF-1D6924AB34AC} = {27B246B3-7764-4FD4-9A3A-F93F9A5250A7}
 	EndGlobalSection
 EndGlobal
