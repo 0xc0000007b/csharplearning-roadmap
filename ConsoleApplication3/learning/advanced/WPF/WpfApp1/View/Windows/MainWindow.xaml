@@ -4,9 +4,66 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
+        xmlns:vm="clr-namespace:WpfApp1.ViewModels"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="{Binding Title}" 
+        Height="450" 
+        Width="800">
+        <Window.DataContext>
+            <vm:MainWindowViewModel/>
+        </Window.DataContext>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Help">
+                    <MenuItem Header="About"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="File">
+                    <MenuItem Header="Exit" Command="{Binding Exit}"/>
+                    
+                </MenuItem>
+            </Menu>
+            <StatusBar DockPanel.Dock="Bottom">
+                <StatusBarItem>
+                    <TextBlock Text="{Binding Status}">
+                        
+                    </TextBlock>
+                </StatusBarItem>
+                <StatusBar
+                    >
+                    <StatusBarItem >
+                        <ProgressBar 
+                            Width="150"
+                            Height="30"
+                            Value="30" ></ProgressBar>
+                    </StatusBarItem>
+                </StatusBar>
+            </StatusBar>
+            <TabControl>
+                <TabItem Header="tab 1">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="70"></RowDefinition>
+                            <RowDefinition Height="330"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="160"></ColumnDefinition>
+                            <ColumnDefinition Width="620"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Rectangle 
+                            Grid.Column="0" 
+                                   Grid.Row="0" 
+                            Fill="#54665a"
+                            Stroke="Bisque "
+                            StrokeThickness="3"
+                            RadiusX="2" 
+                            RadiusY="3" ></Rectangle>
+                        <Ellipse Fill="#ea3312" Grid.Column="1"></Ellipse>
+                        <GridSplitter Grid.ColumnSpan="2" HorizontalAlignment="Right" Height="5"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="tab 2">
+                   
+                </TabItem>
+            </TabControl>
+        </DockPanel>
 </Window>

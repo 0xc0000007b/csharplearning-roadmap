@@ -1,6 +1,19 @@
-﻿namespace WpfApp1.Infrastructure.Commands;
+﻿using System;
+using System.Windows.Input;
 
-public class Command
+namespace WpfApp1.Infrastructure.Commands;
+
+internal  abstract class Command : ICommand
 {
+    public abstract bool CanExecute(object? parameter);
+
+    public abstract void Execute(object? parameter);
     
+    
+
+    public event EventHandler? CanExecuteChanged
+    {
+        add => CommandManager.RequerySuggested += value;
+        remove => CommandManager.RequerySuggested -= value;
+    }
 }
