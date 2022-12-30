@@ -3,22 +3,41 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa5="http://schemas.fontawesome.com/icons/"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:WpfApp1"
         xmlns:vm="clr-namespace:WpfApp1.ViewModels"
+        xmlns:oxy="http://oxyplot.org/wpf"
         mc:Ignorable="d"
         Title="{Binding Title}" 
         Height="450" 
-        Width="800">
-        <Window.DataContext>
+        Width="800"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+        
+    <Window.DataContext>
             <vm:MainWindowViewModel/>
         </Window.DataContext>
         <DockPanel>
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="Help">
-                    <MenuItem Header="About"></MenuItem>
+                    <MenuItem Header="About">
+                        <MenuItem.Icon>
+                            <fa5:ImageAwesome Icon="Regular_AddressBook"></fa5:ImageAwesome>
+                        </MenuItem.Icon>
+                    </MenuItem>
                 </MenuItem>
                 <MenuItem Header="File">
-                    <MenuItem Header="Exit" Command="{Binding Exit}"/>
+                    <MenuItem Header="Exit" Command="{Binding Exit}">
+                        <MenuItem.Icon>
+                            <fa5:ImageAwesome Icon="Regular_WindowClose"></fa5:ImageAwesome>
+                        </MenuItem.Icon>
+                    </MenuItem>
                     
                 </MenuItem>
             </Menu>
@@ -39,31 +58,54 @@
                 </StatusBar>
             </StatusBar>
             <TabControl>
-                <TabItem Header="tab 1">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="70"></RowDefinition>
-                            <RowDefinition Height="330"></RowDefinition>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="160"></ColumnDefinition>
-                            <ColumnDefinition Width="620"></ColumnDefinition>
-                        </Grid.ColumnDefinitions>
-                        <Rectangle 
-                            Grid.Column="0" 
-                                   Grid.Row="0" 
-                            Fill="#54665a"
-                            Stroke="Bisque "
-                            StrokeThickness="3"
-                            RadiusX="2" 
-                            RadiusY="3" ></Rectangle>
-                        <Ellipse Fill="#ea3312" Grid.Column="1"></Ellipse>
-                        <GridSplitter Grid.ColumnSpan="2" HorizontalAlignment="Right" Height="5"/>
-                    </Grid>
-                </TabItem>
-                <TabItem Header="tab 2">
+                <!-- <TabItem Header="tab 1" Visibility="Collapsed"> -->
+                <!--     <Grid> -->
+                <!--         <Grid.RowDefinitions> -->
+                <!--             <RowDefinition Height="70"></RowDefinition> -->
+                <!--             <RowDefinition Height="330"></RowDefinition> -->
+                <!--         </Grid.RowDefinitions> -->
+                <!--         <Grid.ColumnDefinitions> -->
+                <!--             <ColumnDefinition Width="160"></ColumnDefinition> -->
+                <!--             <ColumnDefinition Width="620"></ColumnDefinition> -->
+                <!--         </Grid.ColumnDefinitions> -->
+                <!--         <Rectangle  -->
+                <!--             Grid.Column="0"  -->
+                <!--                    Grid.Row="0"  -->
+                <!--             Fill="#54665a" -->
+                <!--             Stroke="Bisque " -->
+                <!--             StrokeThickness="3" -->
+                <!--             RadiusX="2"  -->
+                <!--             RadiusY="3" ></Rectangle> -->
+                <!--         <Ellipse Fill="#ea3312" Grid.Column="1" > -->
+                <!--             <Ellipse.InputBindings> -->
+                <!--                 <MouseBinding Command="{Binding Exit}" MouseAction="LeftClick"></MouseBinding> -->
+                <!--             </Ellipse.InputBindings> -->
+                <!--         </Ellipse> -->
+                <!--          <Button Grid.Row="1" Style="{DynamicResource MaterialDesignFlatButton}" Width="120" Height="50" Content="ttt" ></Button> -->
+                <!--          <GridSplitter Grid.ColumnSpan="2" HorizontalAlignment="Right" Height="5"/> -->
+                <!--     </Grid> -->
+                <!-- </TabItem> -->
+                <TabItem fa5:Awesome.Content="Brands_Gg">
+                    
+                    <TabItem.Header >
+                        
+                        <TextBlock Text="Graphic">
+                            
+                        </TextBlock>    
+                    </TabItem.Header>
+                    <oxy:Plot>
+                      <oxy:Plot.Axes>
+                          <oxy:LinearAxis Position="Left" /> 
+                          <oxy:LinearAxis Position="Bottom" />
+                      </oxy:Plot.Axes>
+                        <oxy:LineSeries Color="#534bae"
+                                        ItemsSource="{Binding TestDataPoints}"
+                                        DataFieldX="XValue" DataFieldY="YValue"/>
+                  </oxy:Plot>
                    
                 </TabItem>
+                
+                
             </TabControl>
         </DockPanel>
 </Window>

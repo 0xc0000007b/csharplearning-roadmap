@@ -1,14 +1,31 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Input;
+
 using WpfApp1.Infrastructure.Commands;
 using WpfApp1.ViewModels.Base;
+using WpfApp1.Models;
 using static System.Windows.Application;
+using DataPoint = WpfApp1.Models.DataPoints;
 
 namespace WpfApp1.ViewModels;
 
 internal class MainWindowViewModel : ViewModel
 {
+    #region TestDataPoints : TYPE - DESC
+
+    private List<DataPoints> _testDataPoints;
+
+    public List<DataPoints> TestDataPoints
+    {
+        get => _testDataPoints;
+        set => SetField(ref _testDataPoints, value);
+    }
+    
+
+    #endregion
+    
     #region Window Title
         /// <summary>
         /// Window Title
@@ -59,6 +76,20 @@ internal class MainWindowViewModel : ViewModel
         #region Commands
 
         Exit = new LambdaCommand(OnExitExecuted, CanExitExecuted);
+
+        #endregion
+
+        #region DataPoints
+
+        var dataPoints = new List<DataPoints>((int) (360 / 0.1));
+        for (var x = 0d; x <= 360; x+= 0.1)
+        {
+            const double toRead = Math.PI;
+            var y = Math.Sin(x - toRead);
+            dataPoints.Add(new DataPoints{XValue = x, YValue = y});
+        }
+
+        TestDataPoints = dataPoints;
 
         #endregion
     }

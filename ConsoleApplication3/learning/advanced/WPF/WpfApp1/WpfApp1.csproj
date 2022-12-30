@@ -9,7 +9,6 @@
 
     <ItemGroup>
       <Folder Include="Data" />
-      <Folder Include="Models" />
       <Folder Include="Services" />
     </ItemGroup>
 
@@ -22,6 +21,11 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="FontAwesome5" Version="2.1.11" />
+      <PackageReference Include="MaterialDesignColors" Version="2.1.0-ci409" />
+      <PackageReference Include="MaterialDesignThemes" Version="4.7.0-ci409" />
+      <PackageReference Include="Microsoft.Diagnostics.Runtime" Version="2.2.343001" />
+      <PackageReference Include="OxyPlot.Wpf" Version="2.0.0" />
       <PackageReference Include="Prism.Core" Version="8.1.97" />
       <PackageReference Include="Prism.Wpf" Version="8.1.97" />
     </ItemGroup>
