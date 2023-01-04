@@ -132,10 +132,10 @@ namespace ConsoleApplication3
     };
 
     SomePopularClassName _newClass = _popular;
-    _newClass.Age = 33;
-    _newClass.Name = "Vasyan";
-    _newClass.SurName = "Pupovyan";
-    Console.WriteLine($"newClass name: {_newClass.Name}");
+    // _newClass.Age = 33;
+    // _newClass.Name = "Vasyan";
+    // _newClass.SurName = "Pupovyan";
+    // Console.WriteLine($"newClass name: {_newClass.Name}");
 
     class Person : ICloneable
     {
@@ -194,13 +194,13 @@ namespace ConsoleApplication3
         Manufacterer = "Mercedes",
         Mark = "G-150"
     };
-    Auto newAuto = (Auto)a.Clone();
-    newAuto.Manufacterer = "Vasyan";
-    newAuto.Mark = "v-300";
-    newAuto.Vin = "123";
-    Console.WriteLine($"person: {a.Vin} {a.Manufacterer} {a.Mark}");
-    Console.WriteLine($"newPerson: {newAuto.Mark} {newAuto.Manufacterer} {newAuto.Vin}");
-    
+    // Auto newAuto = (Auto)a.Clone();
+    // newAuto.Manufacterer = "Vasyan";
+    // newAuto.Mark = "v-300";
+    // newAuto.Vin = "123";
+    // Console.WriteLine($"person: {a.Vin} {a.Manufacterer} {a.Mark}");
+    // Console.WriteLine($"newPerson: {newAuto.Mark} {newAuto.Manufacterer} {newAuto.Vin}");
+    //
 
 
 }
