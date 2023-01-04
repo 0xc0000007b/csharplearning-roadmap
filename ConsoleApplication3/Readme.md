@@ -147,51 +147,56 @@ output:
 <img src="images/Interfaces/classandmethod.png" alt="">
 <ditails><summary>Interfaces</summary>
 <details><summary>interface</summary>
-
 <img src="images/Interfaces/interface.png" alt="">
+</details>
+<details><summary>
+ICloanneable</summary>
+<img src="images/Interfaces/icloneable/Interface.png"
+alt="">
 
-compatible class:
+output:
 
-<img src="images/Interfaces/classandmethod.png" alt="">
+<img src="images/Interfaces/icloneable/Clone.png">
 
+</details>
 <details><summary>IComparable</summary>
-
 <img src="images/Interfaces/icomparable/icomparable.png" alt="">
-
 output:
 
 <img src="images/Interfaces/icomparable/output.png" alt="">
+
+</details>
+<details><summary>Icomparer</summary>
+<img src="images/Interfaces/icomparer/interface.png" />
+realizing:
+
+<img src="images/Interfaces/icomparer/realize.png" alt="">
+
 </details>
 <details><summary>IEnumerator</summary>
+<img src="images/Interfaces/ienumerator/ienumerator.png"alt="">
 
-<img src="images/Interfaces/ienumerator/ienumerator.png" alt="">
-
-output:
+Realize:
 
 <img src="images/Interfaces/ienumerator/output.png" alt="">
-</details>
-<details><summary>ICloneable</summary>
-<details><summary>interface</summary>
-<img src="images/Interfaces/icloneable/Interface.png" alt="">
-</details>
-<details><summary>Clone</summary>
-<img src="images/Interfaces/icloneable/Clone.png" alt="">
-</details>
-<details><summary>IComparer</summary>
-<details><summary>interface</summary>
-<img src="images/Interfaces/icomparer/interface.png" alt="">
-</details>
-<details><summary>Realizing</summary>
-<img src="images/Interfaces/icomparer/realize.png" alt="">
-</details>
-<details><summary>Output</summary>
-<img src="images/Interfaces/icomparer/output.png" alt="">
-</details>
-</details>
+
 </details>
 </ditails>
 </details>
+<details><summary>MVVM</summary>
+<img src="images/MVVM/Untitled-1.png" alt="">
 </details>
+</details>
+ <details>
+<summary> Special Symbols</summary> 
+\n - new line,
+\t - tab,
+
+\r - teleport the cursor to start of line  
+\b - split 2 last digits
+</details>
+
+
 
 
 
@@ -210,11 +215,4 @@ C# Head First
 
 
 
- <details>
-<summary> Special Symbols</summary> 
-\n - new line,
-\t - tab,
 
-\r - teleport the cursor to start of line  
- \b - split 2 last digits   
-</details>
