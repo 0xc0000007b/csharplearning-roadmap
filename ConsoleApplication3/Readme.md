@@ -75,7 +75,12 @@
 13. [Object-Oriented Programming](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/OOP.cs)
     1. [ What is OOP](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop)
     2. [Encapsulation](https://learn.microsoft.com/en-us/visualstudio/ide/reference/encapsulate-field?view=vs-2022)
-    
+14. [WPF](ConsoleApplication3/learning/advanced/WPF/WpfApp1)
+
+
+### Other
+Architectures
+1. [MVVM](https://intellitect.com/blog/getting-started-model-view-viewmodel-mvvm-pattern-using-windows-presentation-framework-wpf/)
 
 # Images
 
