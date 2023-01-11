@@ -75,7 +75,7 @@
 13. [Object-Oriented Programming](https://github.com/0xc0000007b/csharplearning-roadmap/blob/master/ConsoleApplication3/learning/advanced/OOP.cs)
     1. [ What is OOP](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop)
     2. [Encapsulation](https://learn.microsoft.com/en-us/visualstudio/ide/reference/encapsulate-field?view=vs-2022)
-14. [WPF](https://github.com/0xc0000007b/csharplearning-roadmap/tree/wpf-dev/ConsoleApplication3/learning/advanced/WPF)
+14. [WPF](https://github.com/0xc0000007b/WPF)
 
 
 ### Other
