@@ -1,10 +1,12 @@
 using System;
+using System.Runtime.InteropServices;
 
 namespace ConsoleApplication3
 {
     public class AbstractClasses // <- class is the main entity on your program
     {
-        
+        private static int test = 1;
+        private static void CWL123() => Console.Write(test);
     }
     
     // abstract classes
